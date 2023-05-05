@@ -1,0 +1,22 @@
+.squire{
+    width:100px ;
+    height:100px;
+    margin:20px;
+    /* color:aqua; */
+}
+.squire:nth-child(odd)
+{
+    background-color: aqua;
+}
+.squire:nth-child(odd):hover
+{
+    background-color: aqua;
+}
+.squire:nth-child(even)
+{
+    background-color:blue;
+}
+.squire:nth-child(even):hover
+{
+    background-color:blue;
+}

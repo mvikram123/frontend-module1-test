@@ -1,0 +1,17 @@
+.container{
+    background-color: aqua;
+    height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+.container .item{
+    background-color:red;
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    border: 1px solid black ;
+    
+
+}

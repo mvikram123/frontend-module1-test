@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positons in css</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .parent{
+            height:200vh;
+            background-color: yellow;
+            padding: 30px;
+            color: black;
+        }
+        .child-one{
+            background-color: aqua;
+        }
+        .child-two{
+            background-color: pink;
+        }
+        .child-three{
+            background-color: green;
+        }
+        .child{
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Positons in css</h1>
+    <ol>
+        <li>static Positons : original or defaulut position of an element.</li>
+        <li>relative position : same as static position but we can move our element by adding offset value.</li>
+        <li>absolute positions : element is positioned relative to its parent .
+            if element is not present ,position of element is reative to its document.
+        </li>
+        <li>fixed position : element is positioned ralative to the viewport</li>
+    </ol>
+    <div class="parent">
+        Parent
+        <div class="child child-one">one </div>
+        <div class="child child-two">two</div>
+        <div class="child child-three">three</div>
+        <!-- <div class="child"></div> -->
+       
+        <nav>
+            this is a nav bar .
+        </nav>
+    </div>
+</body>
+</html>

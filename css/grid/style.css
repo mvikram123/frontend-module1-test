@@ -1,0 +1,21 @@
+.container{
+    width: 100%;
+    background-color: blue;
+    display: grid;
+    /* grid-template-columns: repeat(2,50%); */
+    grid-template-columns: repeat(2,auto) 2fr;
+    /* column-gap: 4px; */
+    /* row-gap: 5px; */
+    /* grid-template-columns:repeat(12,20%) */
+    gap:10px 11px;
+    justify-items: center;
+    align-items: center;
+
+
+}
+.container .item{
+    background-color: lightblue;
+    color: white;
+    margin: 5px;
+
+}

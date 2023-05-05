@@ -1,0 +1,28 @@
+.parent {
+
+}
+.child{
+
+}
+.child-one{
+    position : relative;
+    
+
+}
+.child-two{
+
+}
+.child-three{
+    
+
+}
+nav{
+    /* position: fixed; */
+    position: sticky;
+    top: 0px;
+   
+    background-color:blue;
+    width: 100%;
+    
+
+}
